@@ -1,0 +1,44 @@
+extends baseTemplate.pug
+
+block scripts 
+    script(src="../static/script.js")
+
+block style 
+    style 
+        include ../static/style.css
+
+block content     
+    Section#intro
+      div  Welcome to KC study Center
+      div  *FOR SURE SUCCESS*
+      div.small  With the help of self motivation and focus!!
+    
+    Section#mission
+      h1 OUR MISSIONS
+      div.card
+        h3 Quality Teaching
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sint! Quaerat voluptatum quia praesentium dolores earum dolore optio fuga minima maiores possimus voluptatem, consectetur corporis omnis corrupti deserunt doloremque nulla.
+      div.card
+        h3 Affordable Teaching 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sint! Quaerat voluptatum quia praesentium dolores earum dolore optio fuga minima maiores possimus voluptatem, consectetur corporis omnis corrupti deserunt doloremque nulla.
+      div.card
+        h3 BEST IN CLASS
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sint! Quaerat voluptatum quia praesentium dolores earum dolore optio fuga minima maiores possimus voluptatem, consectetur corporis omnis corrupti deserunt doloremque nulla.
+      div.card
+        h3 Motivated lectures 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sint! Quaerat voluptatum quia praesentium dolores earum dolore optio fuga minima maiores possimus voluptatem, consectetur corporis omnis corrupti deserunt doloremque nulla.
+      div.card
+        h3 Result Oriented learning 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sint! Quaerat voluptatum quia praesentium dolores earum dolore optio fuga minima maiores possimus voluptatem, consectetur corporis omnis corrupti deserunt doloremque nulla.
+      div.card
+        h3 Knowledge Focused 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sint! Quaerat voluptatum quia praesentium dolores earum dolore optio fuga minima maiores possimus voluptatem, consectetur corporis omnis corrupti deserunt doloremque nulla.
+    
+    Section#Sponsor
+      h2 OUR Sponsors 
+      div#spons
+        img.spimg(src="../static/1.jpg",alt="Sp Img")
+        img.spimg(src="../static/2.jpg",alt="Sp Img")
+        img.spimg(src="../static/3.jpg",alt="Sp Img")
+        img.spimg(src="../static/4.jpg",alt="Sp Img")
+        img.spimg(src="../static/5.jpg",alt="Sp Img")

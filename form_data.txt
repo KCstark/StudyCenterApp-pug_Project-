@@ -1,0 +1,1 @@
+This is the data provided by the form(inside pugApp.js) & here are the values, Name of client Kanishak Chauhan, 22 years old, contact number 22, Address: #312, E2 Vasant kunj

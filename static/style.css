@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navbar ul{
+    background-color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li{
+    
+    font-weight: bold;
+    margin: 1%;
+    list-style: none;
+    border-bottom: 3px solid transparent;    
+    transition: 0.5s ;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+}
+#navbar li:hover{
+    border-bottom: 3px solid white;
+}
+#intro{
+    height: 40rem; color: white;
+    background-color: orange;
+    background-image: url("./static/study.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: auto;
+    display: flex; font-weight: bold;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    text-shadow: 2px 2px black;
+    font-size: 60px;
+}
+#intro div.small{
+    font-size: 20px;
+}
+#mission{    
+    height: 35rem;
+    background-color: rgb(186, 196, 193);
+    padding-top:1rem ;
+    font-size: 30px; font-weight: bold;
+    color: white; text-shadow: 2px 2px 3px black;
+    text-align: center; display: flexbox;
+}
+.card{
+    font-size: 20px;
+    background-color: rgb(198, 250, 233);
+    border: 5px double black;
+    display: inline-block;
+    width: 30%;  
+    margin:.7%;padding: 5px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card p{
+    color: black; text-shadow: none;
+    font-weight: lighter;
+}
+#logo{     
+    height: 2.5em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-right: 15%;
+    margin-left: -27%;
+    justify-content: center;
+}
+#logo img{
+    /* filter: invert(1); */
+    transform: rotate(-10deg);     
+}
+#logo img:hover{
+    transition: 0.3s;
+    transform: rotate(350deg);
+}
+#Sponsor{
+    height: 40rem;
+    background-color: rgb(27, 211, 27);
+    text-align: center;color: white;text-shadow: 2px 2px black;    
+}
+#spons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin:2% 1%;     */
+}
+#spons img{
+    width: 22%;
+    margin: 2%;    
+}
+#footer{    
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    text-align: center;
+    color: white;
+    height: 3em;
+    background-color: black;
+}
